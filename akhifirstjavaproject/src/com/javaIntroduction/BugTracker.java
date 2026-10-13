@@ -1,6 +1,6 @@
 package com.javaIntroduction;
 
-public class BugTracking {
+public class BugTracker {
 
 	int bugid;
 	String applicationname;
@@ -11,7 +11,7 @@ public class BugTracking {
 	String assignneddeveloper;
 
 	public static void main(String[] args) {
-		BugTracking b1 = new BugTracking();
+		BugTracker b1 = new BugTracker();
 		b1.bugid = 1024;
 		b1.applicationname = "CloudCart Mobile";
 		b1.bugtitle = "App crashes when user switches from WiFi to cellular data during checkout";
